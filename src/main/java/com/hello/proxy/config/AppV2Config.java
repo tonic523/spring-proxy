@@ -1,0 +1,24 @@
+package com.hello.proxy.config;
+
+import com.hello.proxy.app.v2.controller.OrderControllerV2;
+import com.hello.proxy.app.v2.repository.OrderRepositoryV2;
+import com.hello.proxy.app.v2.service.OrderServiceV2;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppV2Config {
+
+    @Bean
+    public OrderControllerV2 orderControllerV2() {
+        return new OrderControllerV2(orderServiceV2());
+    }
+    @Bean
+    public OrderServiceV2 orderServiceV2() {
+        return new OrderServiceV2(orderRepositoryV2());
+    }
+    @Bean
+    public OrderRepositoryV2 orderRepositoryV2() {
+        return new OrderRepositoryV2();
+    }
+}
