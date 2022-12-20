@@ -5,7 +5,7 @@ import com.hello.proxy.app.trace.TraceStatus;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class OrderControllerProxy implements OrderControllerV1 {
+public class OrderControllerInterfaceProxy implements OrderControllerV1 {
 
     private final OrderControllerV1 target;
     private final LogTrace logTrace;
