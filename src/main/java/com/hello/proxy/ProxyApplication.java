@@ -2,13 +2,13 @@ package com.hello.proxy;
 
 import com.hello.proxy.app.trace.LogTrace;
 import com.hello.proxy.app.trace.ThreadLocalLogTrace;
-import com.hello.proxy.config.v4_postprocessor.BeanPostProcessorConfig;
+import com.hello.proxy.config.v5_autoproxy.AutoProxyConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
 
-@Import(BeanPostProcessorConfig.class)
+@Import(AutoProxyConfig.class)
 @SpringBootApplication(scanBasePackages = "com.hello.proxy.app")
 public class ProxyApplication {
 
