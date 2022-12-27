@@ -1,7 +1,7 @@
 package com.hello.proxy.app.v2.repository;
 
-import com.hello.proxy.app.trace.LogTrace;
-import com.hello.proxy.app.trace.TraceStatus;
+import com.hello.proxy.trace.LogTrace;
+import com.hello.proxy.trace.TraceStatus;
 
 public class OrderRepositoryConcreteProxy extends OrderRepositoryV2 {
 

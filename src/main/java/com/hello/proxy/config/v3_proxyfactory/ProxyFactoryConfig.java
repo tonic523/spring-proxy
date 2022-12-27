@@ -1,6 +1,6 @@
 package com.hello.proxy.config.v3_proxyfactory;
 
-import com.hello.proxy.app.trace.LogTrace;
+import com.hello.proxy.trace.LogTrace;
 import com.hello.proxy.app.v1.controller.OrderControllerV1;
 import com.hello.proxy.app.v1.controller.OrderControllerV1Impl;
 import com.hello.proxy.app.v1.repository.OrderRepositoryV1;

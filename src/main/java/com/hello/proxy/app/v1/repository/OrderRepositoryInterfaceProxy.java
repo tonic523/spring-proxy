@@ -1,7 +1,7 @@
 package com.hello.proxy.app.v1.repository;
 
-import com.hello.proxy.app.trace.LogTrace;
-import com.hello.proxy.app.trace.TraceStatus;
+import com.hello.proxy.trace.LogTrace;
+import com.hello.proxy.trace.TraceStatus;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

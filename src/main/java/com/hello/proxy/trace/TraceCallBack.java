@@ -1,4 +1,4 @@
-package com.hello.proxy.app.trace;
+package com.hello.proxy.trace;
 
 @FunctionalInterface
 public interface TraceCallBack<T> {

@@ -1,7 +1,7 @@
 package com.hello.proxy.config.v3_proxyfactory.advice;
 
-import com.hello.proxy.app.trace.LogTrace;
-import com.hello.proxy.app.trace.TraceStatus;
+import com.hello.proxy.trace.LogTrace;
+import com.hello.proxy.trace.TraceStatus;
 import java.lang.reflect.Method;
 import lombok.extern.slf4j.Slf4j;
 import org.aopalliance.intercept.MethodInterceptor;

@@ -1,7 +1,7 @@
 package com.hello.proxy.config.v1_dynamicproxy;
 
-import com.hello.proxy.app.trace.LogTrace;
-import com.hello.proxy.app.trace.TraceStatus;
+import com.hello.proxy.trace.LogTrace;
+import com.hello.proxy.trace.TraceStatus;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

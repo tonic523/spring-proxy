@@ -1,6 +1,6 @@
 package com.hello.proxy.config.v4_postprocessor;
 
-import com.hello.proxy.app.trace.LogTrace;
+import com.hello.proxy.trace.LogTrace;
 import com.hello.proxy.config.AppV1Config;
 import com.hello.proxy.config.AppV2Config;
 import com.hello.proxy.config.v3_proxyfactory.advice.LogTraceAdvice;
